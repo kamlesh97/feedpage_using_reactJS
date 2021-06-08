@@ -1,13 +1,134 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&display=swap');
+*{
+  font-family: 'Chela One', cursive;
+  color: purple;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+margin: 0;
+background-color: lightgray;
 }
+
+
+
+.horizontal-list {
+  list-style: none;
+  padding-left: 0px;
+  margin-top:-40px;
+  /* background-color: blueviolet; */
+  background-image:linear-gradient(to right, purple, orange);
+  width: 100%;
+  height:50px;
+  position:fixed;
+  opacity: .9;
+  box-shadow: 0 0 20px 1px plum;
+  
+}
+
+.horizontal-list li {
+  display: inline-block;
+  margin: 12px 8px 8px 0px;
+  font-weight: 100;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.horizontal-list li a {
+  /*color: white;*/
+  color: lightgray;
+  text-decoration: none;
+}
+
+.nav-menu li a {
+  transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+  color: #68e0cf;
+  border-bottom: 1px solid black;
+}
+
+.text-center {
+  text-align: end;
+ 
+}
+
+
+
+
+.main{
+  /* text-align: end; */
+  display: flex;
+  /* margin-left:45vw; */
+  margin-top: 40px;
+  padding: 15px;
+  
+}
+
+.main-logo{
+  height:250px;
+  width: 250px;
+  /* margin-top: -150px; */
+  box-shadow: 0 0 20px 1px #001233;
+  
+}
+
+.text{
+  width: 20%;
+  margin-top: 5%;
+  position: fixed;
+  margin-left: 20vw;
+  
+}
+.list{
+  margin-left:65vw;
+  
+}
+
+img{
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px red solid;
+  /* position: relative; */
+  
+}
+.list-item{
+  border: 1px red solid;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: orange;
+  box-shadow: 0 0 20px 1px purple;
+}
+
+.title{
+  font-size:large;
+}
+
+.status{
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  justify-content: space-between;
+  /* margin-left: 55%; */
+  
+}
+
+.icon{
+  width: 115px;
+}
+
+.i{
+  height: 18px;
+  width: 15px;
+  /* padding-top: 2px; */
+}
+
+
+
+
+
+
+
